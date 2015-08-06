@@ -88,6 +88,57 @@ body {
    -webkit-animation: fade 10s infinite;
 }
 
+.nav {
+   
+   ul {
+      list-style-type: none;
+      background-color: $primary-color;
+      text-align: right;
+      padding: 0;
+      margin: 0;
+   }
+   
+   a {
+      text-decoration: none;
+      color: #fff;
+      display: block;
+      transition: .3s background-color;
+      
+      &:hover {
+         background-color: darken($primary-color, 10%);
+      }
+      
+      &:active {
+         backgroun-color: #fff;
+         color: darken($primary-color, 20%);
+         cursor: default;
+      }
+   }
+
+   li {
+      font-size: 2rem;
+      line-height: 4rem;
+      height: 4rem;
+      border-bottom: 1px solid $primary-color;
+      text-align: center;
+      
+      @include break-at(640px){ 
+         width: 160px;
+         height: 5rem;
+         line-height: 5rem;
+         font-size: 2rem;
+         
+         display: inline-block;
+         margin-right: 0;
+         
+         &:first-child {
+            float: left;
+         }
+      }
+   }
+   
+}
+
 .sidebar {
    margin-bottom: 5rem;
    
