@@ -9,26 +9,8 @@
     <meta name="generator" content="Nanoc <%= Nanoc::VERSION %>">
   </head>
   <body>
-    <header>
-    <div class="nav">
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/publications">Publications</a></li>
-        <li><a href="/blog">Blog</a></li>
-      </ul>
-    </div>
-    </header>
-    <!-- Blog title -->
-    <div class="hero">
-      <div id="sky">
-        <img src="/images/cloud.png" />
-      </div>
-      <div class="container">
-        <h1>Whisperings Into the Wire</h1>
-      </div>
-    </div>
-
+    <%= render '/nav.*' %>
+    <%= render '/title.*' %>
     <div class="section">
       <div class="container">
         <div class="row">
@@ -37,29 +19,11 @@
             <%= yield %>
           </div>
           <!-- Sidebars -->
-          <div class="col w-2">
-            <div class="row sidebar">
-              <h3>Recent</h3>
-            </div>
-            <div class="row sidebar">
-              <h3>Goodies</h3>
-              <ul>
-                <li><a href="/about/">About</a></li>
-              </ul>
-            </div>
-          </div>
+          <%= render '/sidebar.*' %>
         </div>
       </div>
     </div>
     <!-- Footer -->
-    <footer>
-      <div class="section">
-        <div class="container">
-          <div class="row u-center">
-            
-          </div>
-        </div>
-      </div>
-    </footer>
+    <%= render '/footer.*' %>
   </body>
 </html>
