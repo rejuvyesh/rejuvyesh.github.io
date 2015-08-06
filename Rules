@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 compile '/**/*.html' do
-  layout '/default.*'
+  layout '/blog.*'
 end
 
 # This is an example rule that matches Markdown (.md) files, and filters them
