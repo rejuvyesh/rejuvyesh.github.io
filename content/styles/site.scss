@@ -88,4 +88,21 @@ body {
    -webkit-animation: fade 10s infinite;
 }
 
+.sidebar {
+   margin-bottom: 5rem;
+   
+   h3 {
+      margin: 0;
+      padding: 0 0 2rem;
+      text-align: left;
+      text-transform: uppercase;
+      line-height: 2.5rem;
+   }
+   
+   ol, ul {
+      list-style-type: none;
+   }
+}
+
+
 
