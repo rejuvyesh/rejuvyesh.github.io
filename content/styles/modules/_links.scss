@@ -4,7 +4,7 @@
 
 a {
     
-    color: $primary-color;
+    color: darken( $primary-color, 10%);
     cursor: pointer;
     text-decoration: none;
     outline: 0;
@@ -18,13 +18,13 @@ a {
 
     &:active {
 
-        color: darken( $primary-color, 10% );
+        color: darken( $primary-color, 30% );
 
     }
 
     &:focus {
 
-        color: darken( $primary-color, 10% );
+        color: darken( $primary-color, 40% );
 
     }
 
