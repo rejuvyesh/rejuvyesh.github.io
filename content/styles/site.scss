@@ -30,46 +30,39 @@
     Site
 /*---------*/
 .hero {
+   color: #fff;
+   text-align: center;
+   padding: 5rem 0;
+   position: relative;
 
-	 color: #fff;
-	 text-align: center;
-	 padding: 5rem 0;
-	 position: relative;
-
-	 @include break-at(640px){
-
+   @include break-at(640px){
       padding: 10rem 0;
-
    }
 
    img {
+      max-width: 70px;
 
-		  max-width: 70px;
-
-		  @include break-at(640px){
-
+      @include break-at(640px){
          max-width: 100%;
-
       }
 
    }
 
-	 p {
+   p {
 
-		  margin-top: 0;
-		  font-size: 20px;
-		  font-size: 2rem;
+      margin-top: 0;
+      font-size: 20px;
+      font-size: 2rem;
 
-	 }
-
+   }
 }
 
 html, body {
-	 height: 100%;
+   height: 100%;
 }
 
 body {
-	 width: 100%;
+   width: 100%;
 }
 
 #sky {
