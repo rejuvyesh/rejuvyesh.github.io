@@ -4,11 +4,23 @@
       <div class="container">
         <div class="row">
           <!-- Blog post -->
-          <div class="col w-10">
+          <div class="col w-8 p-2">
+            <div class="post">
+              <h1><%= @item[:title] %></h1>
+              <div class="row">
+                <div class="col w-4">
+                  <div class="date">
+                    <i class="fa fa-calendar"></i> <%= @item[:lastmodified] %></div>
+                </div>
+                <div class="col w-4">
+                  <div class="tags">
+                    <i class="fa fa-tags"></i> <%= %>
+                  </div>
+                </div>
+              </div>
               <%= yield %>
+            </div>
           </div>
-          <!-- Sidebars -->
-          <%= render '/sidebar.*' %>
         </div>
       </div>
     </div>
