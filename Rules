@@ -63,8 +63,11 @@ route '/**/*.{html,md}' do
     @item.identifier.without_ext + '/index.html'
   end
 end
+
+ignore '/**/_*' # No partials
+
 route '/**/*' do
-  item.identifier.to_s
+  @item.identifier.to_s
 end
 
 layout '/**/*', :erb
