@@ -18,6 +18,25 @@ compile '/styles/*' do
 end
 
 compile '/**/*' do
+  if @item.binary?
+    # nothing to do
+      else
+        case @item[:extension]
+          when "md"
+            filter :erb
+            if @item[:toc] == 'true'
+              filter :pandoc, args: [:s, { f: 'markdown', to: 'html' }, :toc]
+            else
+              filter :pandoc, args: [:s, { f: 'markdown', to: 'html' }]
+            end
+            
+            layout '/post.*'
+        when "org"
+          filter :org
+        when "erb"
+          filter :erb
+        end
+  end
 end
 
 # Routing
