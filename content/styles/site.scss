@@ -122,6 +122,11 @@ body {
       border-bottom: 1px solid $primary-color;
       text-align: center;
       
+      .logo {
+         height: 2rem;
+         width: auto;
+      }
+
       @include break-at(640px){ 
          width: 160px;
          height: 5rem;
