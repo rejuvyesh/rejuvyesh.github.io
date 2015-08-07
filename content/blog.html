@@ -1,0 +1,14 @@
+---
+title: Whisperings into the Wire
+---
+
+<% sorted_articles.each do |post| %>
+
+  <h1><%= link_to(post[:title], post.path) %></h1>  
+  <p><i class="fa fa-calendar"></i> <%= @item[:lastmodified] %></p>
+  <article>
+    <%= post.compiled_content %>
+  </article>
+
+<% end %>
+        
