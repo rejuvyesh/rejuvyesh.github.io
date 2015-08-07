@@ -11,11 +11,11 @@ html {
 body {
 
     line-height: 1.5;
-    font-family: "Noto Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
     background: #fff;
     color: $secondary-color;
     font-size: 14px;
+   font-family: "Lora", "Palatino Linotype", "Georgia", serif;
 
     @include break-at(640px) {
 
