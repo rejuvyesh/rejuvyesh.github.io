@@ -1,0 +1,15 @@
+<% render '/default.*' do %>
+<%= render '/title.*' %>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <!-- Blog post -->
+          <div class="col w-10">
+              <%= yield %>
+          </div>
+          <!-- Sidebars -->
+          <%= render '/sidebar.*' %>
+        </div>
+      </div>
+    </div>
+<% end %>
