@@ -10,7 +10,7 @@ $advanced-usage: false !default;
 .section {
 
     padding: 4rem 0;
-    text-align: center;
+    text-align: justify;
 
     @include break-at(640px){
 
