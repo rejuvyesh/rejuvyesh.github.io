@@ -5,35 +5,37 @@
 
 html { 
 
-    font-size: 62.5%;
+   font-size: 62.5%;
 
 } 
 
 body {
 
-    line-height: 1.5;
-    font-weight: 400;
-    background: #fff;
-    color: $secondary-color;
-    font-size: 14px;
+   line-height: 1.5;
    font-family: "Lora", "Palatino Linotype", "Georgia", serif;
+   font-weight: 400;
+   background: #fff;
+   color: $secondary-color;
+   font-size: 14px;
+   text-rendering: optimizelegibility;
+   word-wrap: break-word;
+   
+   @include break-at(640px) {
 
-    @include break-at(640px) {
+      font-size: 16px;
 
-        font-size: 16px;
+   }
 
-    }
+   @include break-at(1200px) {
 
-    @include break-at(1200px) {
+      font-size: 19px
 
-        font-size: 19px
-
-    }
+   }
 
 }
 img {
 
-    max-width: 100%;
-    vertical-align: middle;
+   max-width: 100%;
+   vertical-align: middle;
 
 }
