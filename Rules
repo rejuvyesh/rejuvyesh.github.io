@@ -14,7 +14,7 @@ end
 #end
 
 compile '/styles/*' do
-  filter :sass, :syntax => :scss
+  filter :sass, syntax: "scss"
 end
 
 compile '/**/*' do
