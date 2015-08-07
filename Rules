@@ -42,12 +42,6 @@ end
 
 # Routing
 
-route '/**/*.{html,md}' do
-  if item.identifier =~ '/index.*'
-    '/index.html'
-  else
-    item.identifier.without_ext + '/index.html'
-  end
 end
 
 route '/**/_*' do
@@ -58,6 +52,17 @@ route '/styles/*' do
   route_with_new_extension "css"
 end
 
+route %r[/blog/([0-9]+)\-([0-9]+)\-([0-9]+)\-([^\/]+)\..*] do |y, m, d, slug|
+  "/blog/#{y}/#{m}/#{d}/#{slug}/index.html"
+end
+
+route '/**/*.{html,md}' do
+  if @item.identifier =~ '/index.*'
+    '/index.html'
+  else
+    @item.identifier.without_ext + '/index.html'
+  end
+end
 route '/**/*' do
   item.identifier.to_s
 end
