@@ -5,6 +5,12 @@
 // Default - Scale is 3:4 perfect fourth
 // 550px > - Scale is 2:3 perfect fifth
 
+@for $index from 1 through 6 {
+   h#{$index}{
+      font-family: Rosarivo, serif;
+   }
+}
+
 h1 {
 
     font-size: 33px;
