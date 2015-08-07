@@ -147,6 +147,32 @@ body {
    
 }
 
+.post {
+   
+   h1 {
+      margin-bottom: 0;
+      text-align: center;
+      word-wrap: break-word;
+   }
+   .tags, .date {
+      margin-top: 0.4rem;
+      margin-bottom: 2rem;
+      color: #aaa;
+      text-align: center;
+   }
+   
+   @include break-at(640px){ 
+      .date {
+         text-align: left; 
+      }
+      .tags {
+         text-align: right;
+      }
+      .date, .tags {
+         margin-bottom: 6rem;
+      }
+   }
+}
 .sidebar {
    margin-bottom: 5rem;
    
