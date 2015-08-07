@@ -4,27 +4,27 @@
 
 a {
     
-    color: darken( $primary-color, 10%);
+    color: darken( $primary-color, 20%);
     cursor: pointer;
     text-decoration: none;
     outline: 0;
 
     &:hover {
 
-        color: #ff9c08;
+        color: darken( $primary-color, 30%);
         text-decoration: underline;
 
     }
 
     &:active {
 
-        color: darken( $primary-color, 30% );
+        color: darken( $primary-color, 40% );
 
     }
 
     &:focus {
 
-        color: darken( $primary-color, 40% );
+        color: darken( $primary-color, 50% );
 
     }
 
