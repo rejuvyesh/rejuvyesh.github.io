@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title><%= @item[:title] %> - Whisperings into the Wire</title>
+    <link rel="stylesheet" href="/styles/site.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!-- you don't need to keep this, but it's cool for stats! -->
+    <meta name="generator" content="Nanoc <%= Nanoc::VERSION %>">
+  </head>
+  <body>
+    <%= render '/nav.*' %>
+    <%= render '/links.*' %>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <!-- Recent news-->
+          <div class="col w-10">
+            <%= yield %>
+          </div>
+          <!-- Sidebars -->
+          <div class="col w-2">
+            <%= render '/goodies.*' %>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <%= render '/footer.*' %>
+  </body>
+</html>
