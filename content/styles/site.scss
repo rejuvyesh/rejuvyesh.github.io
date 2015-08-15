@@ -129,10 +129,10 @@ body {
 
       @include break-at(640px){ 
          width: 160px;
-         height: 5rem;
-         line-height: 5rem;
+         height: 4rem;
+         line-height: 4rem;
          font-size: 2rem;
-         
+         padding-top: 1rem;
          display: inline-block;
          margin-right: 0;
          
