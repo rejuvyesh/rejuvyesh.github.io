@@ -1,11 +1,11 @@
 <!DOCTYPE HTML>
 <html lang="en">
-  <body>
   
   <%= render '/head.*' %>
+  <body onload="start()">
     <%= render '/nav.*' %>
     <%= yield %>
     <!-- Footer -->
     <%= render '/footer.*' %>
-  </body>
+</body>
 </html>
