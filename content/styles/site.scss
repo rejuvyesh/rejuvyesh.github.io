@@ -210,3 +210,64 @@ body {
       font-size: 2rem;
    }
 }
+
+.publications {
+   h1 {
+      text-align: center;
+   }
+   
+   img {
+      max-width: 100%;
+   }
+   .papert {
+      text-align: center;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      color: #222;
+      font-size: 2rem;
+      font-weight: 400;
+   }
+   
+   .paperd {
+      font-weight: 300;
+      text-align: justify;
+   }
+   
+   .papera {
+      color: $red-color;  
+   }
+   
+   .paperv {
+      color: $green-color;
+   }
+   
+   .paperl {
+      li {
+         border: 1px solid #ccc;
+         padding: 0.5rem;
+         margin: 0.5rem 0.2rem;
+         display: inline-block;
+      }
+   }
+}
+
+#morepapers {
+   display: none;
+}
+
+
+.showmore {
+   border: 1px solid #CCC;
+   padding: 1rem;
+   font-size: 2.5rem;
+   width: 200px;
+   text-align: center;
+   color: #999;
+   margin: 0px auto;
+   cursor: pointer;
+   margin-bottom: 5rem;
+   
+   &:hover {
+      color: #333;
+   }
+}
