@@ -170,6 +170,7 @@ body {
       }
    }
 }
+
 .sidebar {
    display: block;
    margin-bottom: 5rem;
@@ -202,6 +203,8 @@ body {
    .name {
       margin-top: 6rem;
       font-size: 4rem;
+      font-weight: 600;
+      text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
    }
    .place {
       font-size: 2.5rem;
