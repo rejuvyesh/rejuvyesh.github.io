@@ -4,6 +4,22 @@ compile '/**/*.html' do
   layout '/blog.*'
 end
 
+compile '/index.md' do
+  filter :erb
+  filter :pandoc, args: [:s, { f: 'markdown', to: 'html' }]
+  layout '/main.*'
+end
+
+compile '/publications.html' do
+  filter :erb
+  layout '/page.*'
+end
+
+compile '/archives.html' do
+  filter :erb
+  layout '/page.*'
+end
+
 # This is an example rule that matches Markdown (.md) files, and filters them
 # using the :kramdown filter. It is commented out by default, because kramdown
 # is not bundled with Nanoc or Ruby.
