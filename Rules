@@ -46,8 +46,11 @@ compile '/**/*' do
             else
               filter :pandoc, args: [:s, { f: 'markdown', to: 'html' }]
             end
-            
-            layout '/post.*'
+            if @item[:kind] == 'article'
+              layout '/post.*'
+            else
+              layout '/page.*'
+            end
         when "org"
           filter :org
         when "erb"
