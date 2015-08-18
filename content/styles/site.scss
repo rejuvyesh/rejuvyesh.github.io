@@ -35,14 +35,14 @@
    padding: 5rem 0;
    position: relative;
 
-   @include break-at(640px){
+   @include break-at(1200px){
       padding: 10rem 0;
    }
 
    img {
       max-width: 70px;
 
-      @include break-at(640px){
+      @include break-at(1200px){
          max-width: 100%;
       }
 
@@ -127,7 +127,7 @@ body {
          width: auto;
       }
 
-      @include break-at(640px){ 
+      @include break-at(1200px){ 
          width: 160px;
          height: 4rem;
          line-height: 4rem;
@@ -166,7 +166,7 @@ body {
       text-align: center;
    }
    
-   @include break-at(640px){ 
+   @include break-at(1200px){ 
       .date {
          text-align: left; 
       }
@@ -184,7 +184,7 @@ body {
    margin-bottom: 5rem;
    margin-top: 6rem;
    
-   @include break-at(640px){ 
+   @include break-at(1200px){ 
       padding-left: 3rem;
    }
    
