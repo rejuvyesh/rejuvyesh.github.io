@@ -12,7 +12,7 @@ Scott's [Slate Star Codex](http://slatestarcodex.com/) is an unrelenting fountai
 - [Meditations on Moloch](http://slatestarcodex.com/2014/07/30/meditations-on-moloch/)
 - [I Can Tolerate Anything Except the Outgroup](http://slatestarcodex.com/2014/09/30/i-can-tolerate-anything-except-the-outgroup/)
 - [The Taxoplasma of Rage](http://slatestarcodex.com/2014/12/17/the-toxoplasma-of-rage/)
-- [THe Virtue of Silenece](http://slatestarcodex.com/2013/06/14/the-virtue-of-silence/)
+- [The Virtue of Silence](http://slatestarcodex.com/2013/06/14/the-virtue-of-silence/)
 - [Consequentialism FAQ](http://raikoth.net/consequentialism.html)
 
 ### Paul Graham classics:
