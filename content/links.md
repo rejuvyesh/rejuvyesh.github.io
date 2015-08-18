@@ -6,7 +6,7 @@ Some of my favorite links from around the web.
 
 ### Scott Alexander's:
 
-Scott's [Slate Star Codex](http://slatestarcodex.com/) is an unrelenting fountain of insight and my favorite blog. I can't recommend it enough. Still some of my favorite posts:
+Scott's [Slate Star Codex](http://slatestarcodex.com/) is an unrelenting fountain of insight and my favorite blog. I can't recommend it enough. Still, some of my favorite posts:
 
 - [In Favor of Niceness, Community, and Civilization](http://slatestarcodex.com/2014/02/23/in-favor-of-niceness-community-and-civilization/)
 - [Meditations on Moloch](http://slatestarcodex.com/2014/07/30/meditations-on-moloch/)
