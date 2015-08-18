@@ -980,12 +980,12 @@ pre, code {
   text-align: center;
   padding: 5rem 0;
   position: relative; }
-  @media (min-width: 640px) {
+  @media (min-width: 1200px) {
     .hero {
       padding: 10rem 0; } }
   .hero img {
     max-width: 70px; }
-    @media (min-width: 640px) {
+    @media (min-width: 1200px) {
       .hero img {
         max-width: 100%; } }
   .hero p {
@@ -1044,7 +1044,7 @@ body {
   .nav li .logo {
     height: 2rem;
     width: auto; }
-  @media (min-width: 640px) {
+  @media (min-width: 1200px) {
     .nav li {
       width: 160px;
       height: 4rem;
@@ -1070,7 +1070,7 @@ body {
   margin-bottom: 2rem;
   color: #aaa;
   text-align: center; }
-@media (min-width: 640px) {
+@media (min-width: 1200px) {
   .post .date {
     text-align: left; }
   .post .tags {
@@ -1082,7 +1082,7 @@ body {
   display: block;
   margin-bottom: 5rem;
   margin-top: 6rem; }
-  @media (min-width: 640px) {
+  @media (min-width: 1200px) {
     .sidebar {
       padding-left: 3rem; } }
   .sidebar h3 {
