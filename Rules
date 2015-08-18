@@ -77,7 +77,7 @@ end
 
 route '/**/*.{html,md}' do
   if @item.identifier =~ '/index.*'
-    '/index.html'
+    @item.identifier.with_ext('html')
   else
     @item.identifier.without_ext + '/index.html'
   end
