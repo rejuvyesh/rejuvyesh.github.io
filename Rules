@@ -1,12 +1,8 @@
 #!/usr/bin/env ruby
 
-compile '/**/*.html' do
-  layout '/blog.*'
-end
-
 compile '/index.md' do
   filter :erb
-  filter :pandoc, args: [:s, { f: 'markdown', to: 'html' }]
+  filter :pandoc, args: [{ f: 'markdown', to: 'html5' }]
   layout '/main.*'
 end
 
@@ -15,67 +11,46 @@ compile '/publications.html' do
   layout '/page.*'
 end
 
-compile '/archives.html' do
-  filter :erb
-  layout '/page.*'
-end
-
-# This is an example rule that matches Markdown (.md) files, and filters them
-# using the :kramdown filter. It is commented out by default, because kramdown
-# is not bundled with Nanoc or Ruby.
-#
-#compile '/**/*.md' do
-#  filter :kramdown
-#  layout '/default.*'
-#end
-
 compile '/styles/*' do
-  filter :sass, :syntax => :scss
+  filter :sass, :syntax => :scss, :style => :compressed
 end
+
+compile '/stuff/*' do
+  # pass
 end
 
 compile '/**/*' do
-  if @item.binary?
+  unless @item.binary?
     # nothing to do
+    case @item[:extension]
+    when "md"
+      filter :erb
+      if @item[:toc] == 'true'
+        filter :pandoc, args: [{ f: 'markdown', to: 'html5' }, :toc]
       else
-        case @item[:extension]
-          when "md"
-            filter :erb
-            if @item[:toc] == 'true'
-              filter :pandoc, args: [:s, { f: 'markdown', to: 'html' }, :toc]
-            else
-              filter :pandoc, args: [:s, { f: 'markdown', to: 'html' }]
-            end
-            if @item[:kind] == 'article'
-              layout '/post.*'
-            else
-              layout '/page.*'
-            end
-        when "org"
-          filter :org
-        when "erb"
-          filter :erb
-        end
+        filter :pandoc, args: [{ f: 'markdown', to: 'html5' }]
+      end
+      layout '/page.*'
+    when "org"
+      filter :org
+      layout '/page.*'
+    when "erb"
+      filter :erb
+    end
   end
 end
 
 # Routing
 
-end
-
-route '/**/_*' do
-  nil # No partials
+route '/sitemap.*' do
+  '/sitemap.xml'
 end
 
 route '/styles/*' do
-  route_with_new_extension "css"
+  @item.identifier.without_ext + '.css'
 end
 
-route %r[/blog/([0-9]+)\-([0-9]+)\-([0-9]+)\-([^\/]+)\..*] do |y, m, d, slug|
-  "/blog/#{y}/#{m}/#{d}/#{slug}/index.html"
-end
-
-route '/**/*.{html,md}' do
+route '/**/*.{html,md,org}' do
   if @item.identifier =~ '/index.*'
     @item.identifier.without_ext + '.html'
   else
