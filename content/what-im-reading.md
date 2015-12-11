@@ -10,8 +10,9 @@ This is a list of books somewhere in my reading pipeline. Also on [Goodreads](ht
 <div id="gr_grid_widget_1439819475">
 <!-- Show static html as a placeholder in case js is not enabled - javascript include will override this if things work -->
 </div>
-<script></script>
-<script type="text/javascript" src="//www.goodreads.com/review/grid_widget/7482598.Jayesh%20's%20bookshelf:%20currently-reading?cover_size=medium%26hide_link=true%26hide_title=true%26num_books=6%26order=d%26shelf=currently-reading%26sort=date_updated%26widget_id=1439819475">
+
+<script type="text/javascript">
+<%= currently_reading %>
 </script>
 </div>
 
