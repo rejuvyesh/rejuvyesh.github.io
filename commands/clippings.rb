@@ -6,7 +6,7 @@ module Nanoc::CLI::Commands
   class Clippings < ::Nanoc::CLI::CommandRunner
 
     def run
-      clipping = '/home/rejuvyesh/books/reading_list/My Clippings.txt'
+      clipping = '/home/rejuvyesh/txt/notes/My Clippings.txt'
       out = 'content/clippings.html'
       system "whoarder '#{clipping}' '#{out}'"
     end
