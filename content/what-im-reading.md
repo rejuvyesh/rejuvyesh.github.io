@@ -22,9 +22,8 @@ This is a list of books somewhere in my reading pipeline. Also on [Goodreads](ht
 
 ## Recently Finished
 
-- **Aziz Ansari, _Modern Romance_**: Surprisingly boring. Having read _Dataclysm_ very little new information as well.
-- **Michael Booth, _The Almost Nearly Perfect People: Behind the Myth of the Scandinavian Utopia_**:
-- **David Mitchell, _number9dream_**: 
+- **Nick Lane, _The Vital Question_**: Definitely one of the finest non-fiction I've read.
+- **Vernor Vinge, _Rainbow's End_**: Not as great as his other two books I've read. But after Pokemon Go, felt pretty prescient.
 - [more...](https://www.goodreads.com/review/list/7482598?shelf=read&sort=date_read)
 
 ## Next in Line
