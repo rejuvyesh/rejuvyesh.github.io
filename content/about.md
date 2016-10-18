@@ -4,8 +4,9 @@ title: About
 
 ## About Me
 
-I graduated from IIT Kanpur in 2015 with Bachelors in Electrical Engineering. I am starting Ph.D. in Computer Science at Stanford.
+I'm a second year CS Ph.D. student at Stanford advised by [Mykel J. Kochenderfer](http://mykel.kochenderfer.com/).
 
+I'm interested in applying ideas from deep learning to multi-agent systems.
 
 
 ## Elsewhere
