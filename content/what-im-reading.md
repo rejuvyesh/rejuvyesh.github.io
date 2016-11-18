@@ -43,7 +43,7 @@ This is a list of books somewhere in my reading pipeline. Also on [Goodreads](ht
 - Wildbow, _Worm_
 - Vernor Vinge, _A Deepness in the Sky_
 - Greg Egan, _Diaspora_
-- Greg Egan, _Permutaion City_
+- Greg Egan, _Permutation City_
 - Steven Pinker, _The Better Angels of Our Nature: Why Violence Has Declined_
 - Ted Chiang, _Stories of Your Life and Others_
 - Charles Stross, _Accelerando_
