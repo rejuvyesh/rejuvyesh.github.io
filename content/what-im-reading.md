@@ -14,17 +14,15 @@ This is a list of books somewhere in my reading pipeline. Also on [Goodreads](ht
 <script type="text/javascript">
 <%= currently_reading %>
 </script>
+
 </div>
-
-
-
-
 
 ## Recently Finished
 
-- **Nick Lane, _The Vital Question_**: Definitely one of the finest non-fiction I've read.
-- **Vernor Vinge, _Rainbow's End_**: Not as great as his other two books I've read. But after Pokemon Go, felt pretty prescient.
+- **Jasper Fforde, _Shades of Grey_**: How did I not try reading this earlier? Absolutely fantastic. I enjoyed this a lot.
+- **N.K. Jemisin, _The Fifth Season_**: Jemisin is definitely good at fantasy world building. This even had characters I could care about.
 - [more...](https://www.goodreads.com/review/list/7482598?shelf=read&sort=date_read)
+
 
 ## Next in Line
 
@@ -38,6 +36,7 @@ This is a list of books somewhere in my reading pipeline. Also on [Goodreads](ht
 - Eliezer Yudkowsky, _Harry Potter and the Methods of Rationality_
 - Kazuo Ishiguro, _The Remains of the Day_
 - Tyler Cowen, _Creative Destruction: How Globalization Is Changing the World's Cultures_
+- Jasper Fforde, _Shades of Grey_
 - John Brunner, _Stand on Zanzibar_
 - Ted Chiang, _The Truth of Fact, the Truth of Feeling_
 - Wildbow, _Worm_
@@ -55,6 +54,7 @@ This is a list of books somewhere in my reading pipeline. Also on [Goodreads](ht
 - Neal Stephenson, _Cryptonomicon_
 - Neal Stephenson, _In the Beginning...Was the Command Line_
 - Neal Stephenson, _Mother Earth Mother Board_
+- Nick Lane, _The Vital Question_
 - Richard Dawkins, _The Selfish Gene_
 - Douglas Adams, _The Hitchhiker's Guide to the Galaxy_
 
