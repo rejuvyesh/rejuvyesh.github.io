@@ -14,7 +14,7 @@ This is a list of books somewhere in my reading pipeline. Also on [Goodreads](ht
 <script type="text/javascript">
 <%= currently_reading %>
 </script>
-
+<br style="clear: both"/>
 </div>
 
 ## Recently Finished
