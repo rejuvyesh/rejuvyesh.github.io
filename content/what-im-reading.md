@@ -19,8 +19,8 @@ This is a list of books somewhere in my reading pipeline. Also on [Goodreads](ht
 
 ## Recently Finished
 
-- **Jasper Fforde, _Shades of Grey_**: How did I not try reading this earlier? Absolutely fantastic. I enjoyed this a lot.
-- **N.K. Jemisin, _The Fifth Season_**: Jemisin is definitely good at fantasy world building. This even had characters I could care about.
+- **Margaret Atwood, _The Handmaid's Tale_**: Cautionary tale about theocracy and women's rights.
+- **Bryan Caplan, _The Myth of the Rational Voter: Why Democracies Choose Bad Policies _**: Interesting argument against the ways democracy is practiced right now and if we can do better.
 - [more...](https://www.goodreads.com/review/list/7482598?shelf=read&sort=date_read)
 
 
