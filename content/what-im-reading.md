@@ -11,9 +11,8 @@ This is a list of books somewhere in my reading pipeline. Also on [Goodreads](ht
 <!-- Show static html as a placeholder in case js is not enabled - javascript include will override this if things work -->
 </div>
 
-<script type="text/javascript">
-<%= currently_reading %>
-</script>
+
+<script type="text/javascript" src="https://www.goodreads.com/review/grid_widget/7482598.Jayesh%20's%20bookshelf:%20currently-reading?cover_size=medium&hide_link=true&hide_title=true&num_books=6&order=d&shelf=currently-reading&sort=date_updated&widget_id=1439819475"></script>
 <br style="clear: both"/>
 </div>
 
