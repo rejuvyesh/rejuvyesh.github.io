@@ -13,7 +13,7 @@ I'm interested in applying ideas from deep learning to multi-agent systems.
 
 - [Twitter](http://twitter.com/rejuvyesh)
 - [Goodreads](http://goodreads.com/rejuvyesh)
-- [MyAnimeList](http://myanimelist/profile/rejuvyesh)
+- [MyAnimeList](http://myanimelist.net/profile/rejuvyesh)
 - [LastFM](http://last.fm/user/rejuvyesh)
 
 Usually you can look for the username `rejuvyesh`.
