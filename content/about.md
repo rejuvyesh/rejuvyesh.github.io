@@ -2,7 +2,7 @@
 title: About
 ---
 
-## About Me
+## Me
 
 I received my Ph.D. in Computer Science from Stanford in 2020, advised by [Mykel J. Kochenderfer](http://mykel.kochenderfer.com/).
 
