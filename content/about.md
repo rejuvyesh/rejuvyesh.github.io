@@ -4,10 +4,9 @@ title: About
 
 ## About Me
 
-I'm a fifth year CS Ph.D. student at Stanford advised by [Mykel J. Kochenderfer](http://mykel.kochenderfer.com/).
+I received my Ph.D. in Computer Science from Stanford in 2020, advised by [Mykel J. Kochenderfer](http://mykel.kochenderfer.com/).
 
-I'm interested in applying ideas from deep learning to multi-agent systems.
-
+My research interests are multi-agent systems, reinforcement learning, and the "Problem Problem".
 
 ## Elsewhere
 
