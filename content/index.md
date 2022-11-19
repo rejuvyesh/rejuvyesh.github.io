@@ -4,4 +4,4 @@ title: Jayesh Kumar Gupta
 
 ## Recent News
 
-- Submitted my thesis titled "Modularity and Coordination for Planning and Reinforcement Learning"
+- Code and website up for PDE surrogate learning and benchmark framework, [PDEArena](https://microsoft.github.io/pdearena)
