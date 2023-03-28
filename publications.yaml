@@ -66,7 +66,7 @@
       url: "https://sites.google.com/stanford.edu/fvmcts/"
 
   image:
-    src: "https://lh5.googleusercontent.com/uui_OIwN8Y-bobx9d6q8V95C3Njhip_zvMiRIbQNWeqE2wFV8zmertSl6nixmy3sDhSDAf1tcIJXFgUYjlVa7-L9ioSZpc8-Q1rvrisQezehkRmd0XCXifeTA_PoG9LVDQ=w1280"
+    src: "/images/mauav.png"
     alt: "scalable anytime planning for multi-agent MDPs"
 
 - title: "Scalable Identification of Partially Observed Systems with Certainty-Equivalent EM"
