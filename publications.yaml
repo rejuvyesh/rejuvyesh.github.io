@@ -1,3 +1,29 @@
+- title: "Geometric Clifford Algebra Networks"
+  authors: David Ruhe, Jayesh K. Gupta, Steven de Keninck, Max Welling, Johannes Brandstetter
+  conference: ICML 2023
+  links:
+    - label: "arXiv"
+      url: https://arxiv.org/abs/2302.06594
+    - label: "Website"
+      url: https://microsoft.github.io/cliffordlayers/
+  image:
+    src: "/images/cliffordlayers.png"
+    alt: "Clifford Layers Logo"
+
+- title: "ClimaX: A foundation model for weather and climate"
+  authors: Tung Nguyen, Johannes Brandstetter, Ashish Kapoor, Jayesh K. Gupta*, Aditya Grover*
+  conference: ICML 2023
+  links:
+    - label: "arXiv"
+      url: https://arxiv.org/abs/2301.10343
+    - label: "Website"
+      url: https://microsoft.github.io/ClimaX/
+    - label: "Blog"
+      url: https://www.microsoft.com/en-us/research/group/autonomous-systems-group-robotics/articles/introducing-climax-the-first-foundation-model-for-weather-and-climate/
+  image:
+    src: "/images/climax-logo.png"
+    alt: "ClimaX Logo"
+
 - title: Clifford Neural Layers for PDE Modeling
   authors: Johannes Brandstetter, Rianne van den Berg, Max Welling, Jayesh K. Gupta
   conference: ICLR 2023
