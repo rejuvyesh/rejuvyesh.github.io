@@ -1,3 +1,11 @@
+- title: "Aurora: A Foundation Model of the Atmosphere"
+  authors: Cristian Bodnar, Wessel P. Bruinsma, Ana Lucic, Megan Stanley, Johannes Brandstetter, Patrick Garvan, Maik Riechert, Jonathan Weyn, Haiyu Dong, Anna Vaughan, Jayesh K. Gupta, Kit Tambiratnam, Alex Archibald, Elizabeth Heider, Max Welling, Richard E. Turner, Paris Perdikaris
+  links:
+    - label: "arXiv"
+      url: https://arxiv.org/abs/2405.13063
+  image:
+    src: "/images/aurora.png"
+    alt: "Aurora Logo"
 - title: "Geometric Clifford Algebra Networks"
   authors: David Ruhe, Jayesh K. Gupta, Steven de Keninck, Max Welling, Johannes Brandstetter
   conference: ICML 2023
